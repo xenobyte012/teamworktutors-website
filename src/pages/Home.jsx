@@ -7,6 +7,7 @@ import TutorsSection from '../sections/TutorsSection';
 import CTASection from '../sections/CTASection';
 import SubjectsSection from '../sections/SubjectsSection';
 import FeesSection from '../sections/FeesSection';
+import GetHelp from '../sections/GetHelp';
 
 export default function Home() {
   return (
@@ -16,10 +17,12 @@ export default function Home() {
           <TutorsSection />
           <SubjectsSection />
           <FeesSection />
+          <GetHelp />
           <CTASection />
           <Footer />
           
     </div>
   );
 }
+
 
