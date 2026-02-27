@@ -15,6 +15,7 @@ function App() {
     return (
       <div className="w-full overflow-x-hidden h-screen">
         <Navbar />
+        <Route path="/" element={<Home />} />
         <Suspense
           fallback={
             <div>
@@ -25,7 +26,6 @@ function App() {
           }
         >
           <Routes>
-            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
