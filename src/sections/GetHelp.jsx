@@ -1,0 +1,83 @@
+import React from "react"
+
+export default function GetHelp() {
+    const phoneNumber = "0763095346";
+
+    const message = "Hello, I am interested in your service.";
+
+    const encodedMessage = encodeURIComponent(message);
+  return (
+    <section className="py-10 bg-orange-50">
+      <div className="max-w-6xl mx-auto px-6">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-heading">
+            Assignment & Project Assistance
+          </h2>
+          <p className="mt-4 text-subheading max-w-2xl mx-auto">
+            We provide professional academic support to help you complete
+            assignments, research tasks, and technical projects with confidence
+            and clarity.
+          </p>
+        </div>
+
+        {/* Explanation */}
+        <div className="grid md:grid-cols-2 gap-10 mb-16">
+          <div>
+            <h3 className="text-xl font-semibold text-subheading mb-4">
+              How We Help You
+            </h3>
+            <ul className="space-y-3 text-normaltext">
+              <li>✔ Breaking down complex questions into simple steps</li>
+              <li>✔ Structuring research and written work professionally</li>
+              <li>✔ Assisting with calculations and technical problems</li>
+              <li>✔ Improving presentation and formatting</li>
+              <li>✔ Reviewing and correcting completed work</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-subheading mb-4">
+              What You Can Expect
+            </h3>
+            <ul className="space-y-3 text-normaltext">
+              <li>✔ Clear explanations and guided solutions</li>
+              <li>✔ Step-by-step support</li>
+              <li>✔ Honest feedback before submission</li>
+              <li>✔ Confidential and professional service</li>
+              <li>✔ Transparent pricing before we begin</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Bottom Card */}
+        <div className="bg-white rounded-2xl shadow-xl p-10 text-center max-w-2xl mx-auto hover:shadow-2xl transition duration-300">
+          <h3 className="text-2xl font-bold text-heading">
+            Professional Project Support
+          </h3>
+
+          <p className="mt-4 text-subheading">Assistance starting from</p>
+
+          <div className="mt-4">
+            <span className="text-4xl font-bold text-orange-500">R200</span>
+            <span className="text-subheading text-sm"> minimum fee</span>
+          </div>
+
+          <p className="mt-4 text-sm text-normaltext pb-6">
+            Final cost depends on workload, complexity, and deadlines.
+          </p>
+
+          <a
+            href={`https://wa.me/${phoneNumber}?text=${encodedMessage}`}
+            target="_blank"
+            rel="nooper noreferrer"
+            className="mt-8 bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition"
+          >
+            Request Assistance
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+  
+}
