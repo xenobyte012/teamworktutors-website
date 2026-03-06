@@ -1,7 +1,7 @@
 import React from "react"
 
 export default function GetHelp() {
-    const phoneNumber = "0763095346";
+    const phoneNumber = "2763095346";
 
     const message = "Hello, I am interested in your service.";
 
