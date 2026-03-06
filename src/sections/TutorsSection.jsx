@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import fistImage from '../images/image-1.webp'
 import secondImage from '../images/image-2.webp'
 import star from '../images/star.png'
@@ -13,7 +13,7 @@ function TutorsSection() {
           Professional Tutor's Registered With SACE
         </h1>
         <p className="text-fainttext italic text-center">
-          Why struggle when tutors at your finger tips
+          Why struggle when there are tutors at your finger tips
         </p>
       </div>
       <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:w-3xl">
