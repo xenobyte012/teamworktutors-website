@@ -3,7 +3,7 @@ import facebook from '../images/facebook.png'
 import mobile from '../images/mobile.png'
 import gmail from '../images/gmail.png'
 function CTASection() {
-  const phoneNumber = "0763095346";
+  const phoneNumber = "27763095346";
 
   const message = "Hello, I am interested in your service.";
 
