@@ -1,1 +1,0 @@
-import{a as e,i as t,n,r,t as i}from"./index-DWcmpBsi.js";t();var a=r();function o(){return(0,a.jsxs)(`div`,{children:[(0,a.jsx)(n,{}),(0,a.jsx)(i,{})]})}export{o as default};
