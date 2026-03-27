@@ -39,7 +39,7 @@ function Footer() {
       </div>
       <div className="flex flex-row justify-center ">
         <h2>
-          2026 <span className="p-2">|</span> Vertex Web Studio
+          © 2026 <span className="p-2">|</span> Xenobyte Web Studio
           <span className="p-2">|</span> All Right Reserved
         </h2>
       </div>
